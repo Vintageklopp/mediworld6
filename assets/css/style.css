@@ -1,0 +1,570 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainWhite: #fff;
+  --mainBlue: #003f5e;
+  --mainPurple: #585c8c;
+  --secPurple: #676fa2;
+  --mainTurquoise: #003f5e;
+  --secTurquoise: #75d1e0;
+  --mainBlack: #333;
+  --mainGrey: #f5f6fa;
+}
+
+/*--------Global Style Start-------  */
+
+.section-title-special {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+}
+
+.section-padding{
+  padding: 150px 0;
+}
+
+.section-header{
+  padding-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*--------Global Style End-------- */
+
+body {
+  font-family: 'Questrial', sans-serif;
+  }
+
+/*--------Navbar Start-------- */
+
+.navbar a {
+  color: var(--mainWhite) !important;
+}
+
+.navbar a:hover {
+  color: var(--secTurquoise) !important;
+}
+
+/*--------Navbar End-------- */
+
+.home-section h2 {
+  margin-top: 220px;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.home-section img {
+  margin-top: 180px;
+}
+
+.btn-home {
+border-radius: 0px;
+padding: 8px 32px;
+margin-top: 20px;
+display: inline-block;
+}
+
+
+.btn-mobile {
+  color: #fff;
+}
+
+.btn-video {
+  color: #333;
+  background: #ffc107;
+}
+
+.btn-token{
+  padding: 6px 25px;
+}
+
+.btn-token:hover {
+  background: transparent;
+}
+
+
+@media (max-width:500px) {
+  .home-section h2 {
+    margin-top: 150px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .btn-home {
+  padding: 8px 14px;
+  margin-top: 20px;
+  display: inline-block;
+  }
+
+  .home-section img {
+    margin-top: 30px;
+  }
+
+}
+
+/*-------- Home Section End ------ */
+
+/*---------About Section Start---------*/
+.about-section-padding{
+  padding-top: 120px;
+}
+
+.section-header .section-title{
+  text-transform: uppercase;
+}
+
+.about-img{
+  width: 100%;
+
+}
+
+.about-text{
+  padding-left: 5px;
+}
+
+.about-img{
+  padding-right: 5px;
+}
+
+.about-text h4{
+  margin-bottom: 30px;
+}
+
+.about-text p{
+  font-size: 15px;
+  color: var(--mainBlack);
+}
+
+.about-area .about-sub-heading {
+  margin-top: 90px;
+}
+
+#about-section h4 {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width: 1200px) {
+
+
+  .about-section-padding{
+    padding-top: 30px 0;
+  }
+
+
+  .about-area .about-sub-heading {
+    margin-top: 30px;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .about-section-padding{
+    padding-top: 30px;
+  }
+
+}
+
+/*---------About Section End---------*/
+
+/* --------Services Section Start--- */
+
+
+.services-icon {
+  width: 60px;
+}
+
+.services-section-padding {
+  padding-top: 180px;
+}
+
+
+@media (max-width:500px) {
+
+  .services-section-padding {
+    padding-top: 30px;
+  }
+
+}
+
+
+/* --------Services Section End--- */
+
+
+
+/*----Why Section Start---------- */
+.what-section-padding{
+  padding-top: 200px;
+}
+
+.btn-learn {
+  margin-top: 16px;
+  padding: 8px 35px;
+  border-radius: 0px;
+}
+
+@media (max-width:500px) {
+
+
+  .what-section-padding{
+    padding-top: 40px;
+  }
+
+
+}
+/*---------Why Section End---------*/
+
+
+/*------- Features Section Start-----*/
+.features-section-padding{
+  padding-top: 80px;
+}
+
+#features .section-title {
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+#features .heading {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+#features p{
+  color: #888;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#features .fas {
+  color: var(--mainWhite);
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+@media (max-width: 500px) {
+
+  .features-section-padding{
+    padding-top: 20px;
+  }
+
+}
+
+/*------- Features Section End-----*/
+
+/*---------Team Section Start---------*/
+.team-section-padding {
+  padding-top: 100px;
+}
+
+.team-area{
+
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+
+}
+
+.team-area:before{
+content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+
+z-index: -1;
+}
+
+.single-team{
+ text-align: center;
+}
+
+.img-area{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-area img{
+  width: 100%;
+}
+
+.single-team{
+ text-align: center;
+ border: 1px solid var(--mainSkyblue);
+ color: var(--mainBlack);
+ padding: 15px 40px;
+}
+
+.team-area .section-header{
+color: var(--mainWhite);
+}
+
+.single-team h2{
+ margin: 10px 0;
+ font-size: 22px;
+}
+
+.single-team {
+ margin-bottom: 30px;
+ background-color: var(--mainGrey);
+}
+
+.about-team {
+  font-size: 0.9rem;
+}
+
+.team-area .btn{
+  background-color: var(--mainTurquoiseBlue);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.social-media {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgb(0, 0, 0, .9);
+}
+
+.social-media i {
+  font-size: 1.2rem;
+}
+
+.fa-facebook-square {
+  color: #3b5999;
+}
+
+.fa-linkedin {
+  color: #dd4b39;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.team-area .single-team{
+  border: 1px solid #555;
+}
+
+
+@media (max-width: 500px) {
+
+  .team-section-padding{
+    padding-top: 30px;
+  }
+
+}
+
+/* ------Team Section End ------- */
+
+/*-------Contact Section End------*/
+.contact-form-padding {
+  padding-top: 100px;
+}
+
+.btn-contact {
+  border-radius: 0px;
+  color: var(--mainBlack);
+  font-size: 14px;
+  padding: 6px 40px;
+  border-color: #243c4f;
+}
+
+.contact-form .form-control {
+  border-radius: 0px;
+  border-color: #243c4f;
+
+}
+
+@media (max-width: 500px) {
+
+  .contact-form-padding{
+    padding-top: 30px;
+  }
+
+}
+
+/* -----Contact Form Section End------- */
+
+/* --------Footer Start------------------ */
+.footer-section-padding {
+  padding-top: 50px;
+}
+
+#footer p{
+  color: #999;
+  line-height: 25px;
+}
+
+#footer h2,h3{
+  color: #fff;
+}
+
+#footer h2{
+  font-size: 18px;
+}
+
+.footer-top{
+  background: #111;
+  padding: 50px 0;
+  margin-top: 50px;
+
+}
+
+.segment-one h3{
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+.segment-two h2{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-two h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-two ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-two ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+.segment-two ul li a {
+  color: #999;
+  text-decoration: none;
+}
+
+.segment-three h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-three h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-three a {
+  background: #494848;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.segment-three a i {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.segment-four h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-four h2:before {
+  content: '|';
+  color: #c65039;
+  padding-right: 10px;
+}
+
+.segment-four form input [type=submit] {
+  background: #c65039;
+  border: none;
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.segment-four .form-control {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  height: 35px;
+}
+
+.segment-four [type=submit] {
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 0.1px !important;
+  border-radius: 0;
+}
+
+.segment-four [type=submit]:hover {
+  background-color: transparent;
+  color: var(--secTurquoise);
+}
+
+.footer-bottom-text{
+  text-align: center;
+  background: #000;
+  line-height: 75px;
+}
+
+/*-------Responsive CSS------*/
+@media only screen (min-width: 768px) and (max-width: 991px) {
+  .md-mb-30{
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-mb-30{
+    margin-bottom: 30px;
+  }
+
+  .footer-top{
+    padding: 50px 0;
+  }
+
+}
+
+/*------------Footer End----------------- */
